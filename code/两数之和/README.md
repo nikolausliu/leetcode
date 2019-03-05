@@ -1,6 +1,8 @@
 [#1 两数之和](https://leetcode-cn.com/problems/two-sum/)
 
 # 解答
+
+## 方法1
 ```javascript
 /**
  * @param {number[]} nums
@@ -17,3 +19,5 @@ var twoSum = function(nums, target) {
     }
 };
 ```
+
+两层for循环遍历，遍历的当前项相加等于target即可。
